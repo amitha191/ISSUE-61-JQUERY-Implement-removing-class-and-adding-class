@@ -1,0 +1,33 @@
+.using-jquery, .using-javascript{
+    /* border: 1px solid red; */
+    width:400px;
+    margin-left: 30%;
+    margin-right: 50%;
+    padding: 2% 5%;
+}
+.bg-pink{
+    background-color: pink;
+}
+.color-red{
+    color: red;
+}
+.color-green{
+    color: green;
+}
+.color-brown{
+    color: brown;
+}
+.bg-color{
+    background-color: rgb(238, 255, 127);
+}
+.input-box input, .input-box-js input{
+   padding: 8px;
+}
+.buttons,.buttons-js{
+    margin-top: 20px;
+}
+#add-btn, #remove-btn,#add-btn-js, #remove-btn-js{
+    padding: 6px;
+    color: white;
+    background-color: rgb(93, 128, 240);
+}

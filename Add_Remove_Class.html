@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Add Remove Class</title>
+
+</head>
+
+<body>
+    <div class="using-jquery">
+        <h1 class="">Using jquery</h1>
+        <div class="input-box">
+            <input type="text" class="" id="full-name">
+        </div>
+        <div class="buttons">
+            <button id="add-btn" onclick="addClassJq()">Add Class</button>
+            <button id="remove-btn" onclick="removeClassJq()">Remove Class</button>
+        </div>
+    </div>
+    
+
+    
+    <div class="using-javascript">
+        <h1 id="heading-js" class="">Using Javascript</h1>
+        <div class="input-box-js">
+            <input type="text" class="" id="company-name">
+        </div>
+        <div class="buttons-js">
+            <button id="add-btn-js" onclick="jsAddClass()">Add Class</button>
+            <button id="remove-btn-js" onclick="jsRemoveClass()">Remove Class</button>
+        </div>
+    </div>
+
+
+    <script type="text/Javascript" src="Add_Remove_class.js"></script>
+
+</body>
+</html>
