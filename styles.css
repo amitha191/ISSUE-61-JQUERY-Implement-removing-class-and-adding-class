@@ -17,8 +17,8 @@
 .color-brown{
     color: brown;
 }
-.bg-color{
-    background-color: rgb(238, 255, 127);
+.bg-green{
+    background-color:green;
 }
 .input-box input, .input-box-js input{
    padding: 8px;
