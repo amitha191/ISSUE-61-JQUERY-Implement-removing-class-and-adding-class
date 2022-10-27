@@ -1,9 +1,12 @@
 .using-jquery, .using-javascript{
     /* border: 1px solid red; */
-    width:400px;
+    /* width:400px;
     margin-left: 30%;
     margin-right: 50%;
-    padding: 2% 5%;
+    padding: 2% 5%; */
+}
+h1{
+    text-align: center;
 }
 .bg-pink{
     background-color: pink;
@@ -22,9 +25,12 @@
 }
 .input-box input, .input-box-js input{
    padding: 8px;
+   margin-left: 44%;
+    margin-right: 45%;
 }
 .buttons,.buttons-js{
     margin-top: 20px;
+    text-align: center;
 }
 #add-btn, #remove-btn,#add-btn-js, #remove-btn-js{
     padding: 6px;
